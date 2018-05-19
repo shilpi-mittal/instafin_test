@@ -1,0 +1,6 @@
+BASR_URL=https://shilpitest.instafin.info
+USER_NAME=shilpi
+PASSWORD=kreso123$
+DEFAULT_WAIT=10
+DOWNLOADED_FILE_PATH=\\Downloads
+FILE_EXT=xlsx

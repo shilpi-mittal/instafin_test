@@ -1,0 +1,4 @@
+rootProject.name = 'instafin_test'
+
+include "testModule:functionalTests", "testModule:testCore"
+

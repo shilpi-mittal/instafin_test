@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tetNG Test" duration-ms="43874" started-at="2018-05-19T10:38:11Z" finished-at="2018-05-19T10:38:55Z">
+    <groups>
+      <group name="login">
+        <method signature="IndividualClientCreation.login()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="login" class="functional.IndividualClientCreation"/>
+      </group> <!-- login -->
+      <group name="create_client">
+        <method signature="IndividualClientCreation.login()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="login" class="functional.IndividualClientCreation"/>
+        <method signature="IndividualClientCreation.verifyIndividualAcountCreation()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="verifyIndividualAcountCreation" class="functional.IndividualClientCreation"/>
+      </group> <!-- create_client -->
+    </groups>
+    <test name="tetNG test" duration-ms="43874" started-at="2018-05-19T10:38:11Z" finished-at="2018-05-19T10:38:55Z">
+      <class name="functional.IndividualClientCreation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="setup" is-config="true" duration-ms="5949" started-at="2018-05-19T10:38:11Z" finished-at="2018-05-19T10:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="login" duration-ms="16563" started-at="2018-05-19T10:38:17Z" finished-at="2018-05-19T10:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyIndividualAcountCreation()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="verifyIndividualAcountCreation" duration-ms="14744" started-at="2018-05-19T10:38:33Z" finished-at="2018-05-19T10:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIndividualAcountCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functional.IndividualClientCreation@1e397ed7]" name="tearDown" is-config="true" duration-ms="6533" started-at="2018-05-19T10:38:48Z" finished-at="2018-05-19T10:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functional.IndividualClientCreation -->
+    </test> <!-- tetNG test -->
+  </suite> <!-- tetNG Test -->
+</testng-results>
