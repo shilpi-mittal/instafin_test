@@ -1,5 +1,5 @@
-<suite name="tetNG Test" verbose="10" allow-return-values="true">
-  <test name="tetNG test">
+<suite name="testNG Test" verbose="10" allow-return-values="true">
+  <test name="testNG test">
     <groups>
       <run>
         <include name="create_client"/>

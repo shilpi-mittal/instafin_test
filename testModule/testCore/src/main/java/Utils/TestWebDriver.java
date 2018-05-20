@@ -43,7 +43,7 @@ public class TestWebDriver {
   public List<File> getDownloadedFilesByExtension() {
 	  String input = System.getProperty("user.dir");
 	  String projectRoot = input.substring(0, input.indexOf("instafin_test") + "instafin_test".length());
-	  return (List<File>) FileUtils.listFiles(new File(projectRoot  + "//Downloads") , new String[] {TestConstants.FILE_EXT}, true);
+	  return (List<File>) FileUtils.listFiles(new File(projectRoot  + "\\Downloads") , new String[] {TestConstants.FILE_EXT}, true);
   }
   
   public int getRowsCountInFile() throws IOException, EncryptedDocumentException, InvalidFormatException {

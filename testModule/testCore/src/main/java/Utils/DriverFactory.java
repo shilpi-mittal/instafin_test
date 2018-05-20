@@ -17,7 +17,7 @@ public class DriverFactory {
     driverType = getProperty("web.driver", "Firefox");
     String input = System.getProperty("user.dir");
     String projectRoot = input.substring(0, input.indexOf("instafin_test") + "instafin_test".length());
-    System.setProperty("webdriver.gecko.driver", projectRoot+ "\\geckodriver.exe");
+    System.setProperty("webdriver.gecko.driver", projectRoot+ "//geckodriver.exe");
     
     return createFirefoxDriver(enableJavascript);
   }
@@ -37,6 +37,7 @@ public class DriverFactory {
     
     FirefoxOptions options = new FirefoxOptions();
     options.setProfile(profile);
+    //options.setHeadless(true);
     return new FirefoxDriver(options);
   }
 }
