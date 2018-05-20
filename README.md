@@ -79,4 +79,6 @@ For demo, two scenarios are automated, one using TestNG and other Cucumber.
 * There are two test jobs, 
 * testNG_test - for testNG test, the result report can be downloaded from artifacts
 * cucumber_test - for cucumber test
+* testNGTests job : https://gitlab.com/ShilpiBansal/instafin_test/-/jobs/69358414
+* cucumberScenario job : https://gitlab.com/ShilpiBansal/instafin_test/-/jobs/69358415
 					
